@@ -1,0 +1,3 @@
+﻿LinkList.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall Node::Node(void)" (??0Node@@QAE@XZ)，函数 "class Node * __cdecl create_list(void)" (?create_list@@YAPAVNode@@XZ) 中引用了该符号
+LinkList.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall Node::~Node(void)" (??1Node@@QAE@XZ)，函数 "public: void * __thiscall Node::`scalar deleting destructor'(unsigned int)" (??_GNode@@QAEPAXI@Z) 中引用了该符号
+I:\数据结构与算法\数据结构\LinkList\Debug\LinkList.exe : fatal error LNK1120: 2 个无法解析的外部命令
