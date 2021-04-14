@@ -1,0 +1,4 @@
+﻿  Queue_list.cpp
+Queue_list.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall Node::Node(void)" (??0Node@@QAE@XZ)，函数 "public: __thiscall Queue::Queue(void)" (??0Queue@@QAE@XZ) 中引用了该符号
+Queue_list.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall Node::~Node(void)" (??1Node@@QAE@XZ)，函数 "public: void * __thiscall Node::`scalar deleting destructor'(unsigned int)" (??_GNode@@QAEPAXI@Z) 中引用了该符号
+I:\数据结构与算法\数据结构\Queue_list\Debug\Queue_list.exe : fatal error LNK1120: 2 个无法解析的外部命令

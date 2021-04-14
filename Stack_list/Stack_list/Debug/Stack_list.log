@@ -1,0 +1,4 @@
+﻿  Stack_list.cpp
+Stack_list.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall Node::Node(void)" (??0Node@@QAE@XZ)，函数 "public: bool __thiscall Stack::push(int)" (?push@Stack@@QAE_NH@Z) 中引用了该符号
+Stack_list.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall Node::~Node(void)" (??1Node@@QAE@XZ)，函数 "public: void * __thiscall Node::`scalar deleting destructor'(unsigned int)" (??_GNode@@QAEPAXI@Z) 中引用了该符号
+I:\数据结构与算法\数据结构\Stack_list\Debug\Stack_list.exe : fatal error LNK1120: 2 个无法解析的外部命令
