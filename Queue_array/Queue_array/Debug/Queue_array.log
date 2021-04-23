@@ -1,0 +1,42 @@
+﻿  Queue.cpp
+E:\Datastruct\Queue_array\Queue_array\Queue.h(8,12): error C2062: 意外的类型“int”
+E:\Datastruct\Queue_array\Queue_array\Queue.h(8,20): error C2238: 意外的标记位于“;”之前
+E:\Datastruct\Queue_array\Queue_array\Queue.h(9,8): error C2059: 语法错误:“(”
+E:\Datastruct\Queue_array\Queue_array\Queue.h(9,10): error C2238: 意外的标记位于“;”之前
+E:\Datastruct\Queue_array\Queue_array\Queue.h(20,2): warning C4094: 无标记的“class”未声明符号
+E:\Datastruct\Queue_array\Queue_array\Queue_operation.h(9,13): error C2589: “(”:“::”右边的非法标记
+E:\Datastruct\Queue_array\Queue_array\Queue_operation.h(9,14): error C2059: 语法错误:“)”
+E:\Datastruct\Queue_array\Queue_array\Queue_operation.h(9,16): error C2059: 语法错误:“:”
+E:\Datastruct\Queue_array\Queue_array\Queue_operation.h(9,21): error C2065: “len”: 未声明的标识符
+E:\Datastruct\Queue_array\Queue_array\Queue_operation.h(9,24): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Datastruct\Queue_array\Queue_array\Queue_operation.h(9,37): error C2059: 语法错误:“[”
+E:\Datastruct\Queue_array\Queue_array\Queue_operation.h(9,41): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Datastruct\Queue_array\Queue_array\Queue_operation.h(9,51): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Datastruct\Queue_array\Queue_array\Queue_operation.h(9,60): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Datastruct\Queue_array\Queue_array\Queue_operation.h(10,1): error C2448: “rear”: 函数样式初始值设定项类似函数定义
+E:\Datastruct\Queue_array\Queue_array\Queue_operation.h(13,14): error C2611: “(”: 非法的后缀“~”(应为标识符)
+E:\Datastruct\Queue_array\Queue_array\Queue_operation.h(13,15): error C2059: 语法错误:“)”
+E:\Datastruct\Queue_array\Queue_array\Queue_operation.h(14,1): error C2059: 语法错误:“{”
+E:\Datastruct\Queue_array\Queue_array\Queue_operation.h(14,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+E:\Datastruct\Queue_array\Queue_array\Queue_operation.h(14,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+E:\Datastruct\Queue_array\Queue_array\Queue_operation.h(18,13): error C2039: "en_queue": 不是 "`global namespace'" 的成员
+E:\Datastruct\Queue_array\Queue_array\Queue_operation.h(20,6): error C3861: “is_full”: 找不到标识符
+E:\Datastruct\Queue_array\Queue_array\Queue_operation.h(24,12): error C2109: 下标要求数组或指针类型
+E:\Datastruct\Queue_array\Queue_array\Queue_operation.h(29,13): error C2039: "out_queue": 不是 "`global namespace'" 的成员
+E:\Datastruct\Queue_array\Queue_array\Queue_operation.h(31,5): error C2512: “std::is_empty”: 没有合适的默认构造函数可用
+E:\Datastruct\Queue_array\Queue_array\Queue_operation.h(31,14): message : 目标类型无构造函数
+E:\Datastruct\Queue_array\Queue_array\Queue_operation.h(35,19): error C2109: 下标要求数组或指针类型
+E:\Datastruct\Queue_array\Queue_array\Queue_operation.h(40,13): error C2039: "traverse_queue": 不是 "`global namespace'" 的成员
+E:\Datastruct\Queue_array\Queue_array\Queue_operation.h(45,18): error C2109: 下标要求数组或指针类型
+E:\Datastruct\Queue_array\Queue_array\Queue_operation.h(52,1): error C2063: “std::is_empty”: 不是一个函数
+E:\Datastruct\Queue_array\Queue_array\Queue_operation.h(52,1): error C3755: “is_empty”: 不能定义委托
+E:\Datastruct\Queue_array\Queue_array\Queue_operation.h(55,13): error C2039: "is_full": 不是 "`global namespace'" 的成员
+E:\Datastruct\Queue_array\Queue_array\Queue.cpp(8,8): error C2065: “q”: 未声明的标识符
+E:\Datastruct\Queue_array\Queue_array\Queue.cpp(9,2): error C2065: “q”: 未声明的标识符
+E:\Datastruct\Queue_array\Queue_array\Queue.cpp(10,2): error C2065: “q”: 未声明的标识符
+E:\Datastruct\Queue_array\Queue_array\Queue.cpp(11,2): error C2065: “q”: 未声明的标识符
+E:\Datastruct\Queue_array\Queue_array\Queue.cpp(12,2): error C2065: “q”: 未声明的标识符
+E:\Datastruct\Queue_array\Queue_array\Queue.cpp(13,2): error C2065: “q”: 未声明的标识符
+E:\Datastruct\Queue_array\Queue_array\Queue.cpp(14,2): error C2065: “q”: 未声明的标识符
+E:\Datastruct\Queue_array\Queue_array\Queue.cpp(17,2): error C2065: “q”: 未声明的标识符
+E:\Datastruct\Queue_array\Queue_array\Queue.cpp(19,2): error C2065: “q”: 未声明的标识符

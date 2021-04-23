@@ -1,4 +1,57 @@
 ﻿  Queue_list.cpp
-Queue_list.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall Node::Node(void)" (??0Node@@QAE@XZ)，函数 "public: __thiscall Queue::Queue(void)" (??0Queue@@QAE@XZ) 中引用了该符号
-Queue_list.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall Node::~Node(void)" (??1Node@@QAE@XZ)，函数 "public: void * __thiscall Node::`scalar deleting destructor'(unsigned int)" (??_GNode@@QAEPAXI@Z) 中引用了该符号
-I:\数据结构与算法\数据结构\Queue_list\Debug\Queue_list.exe : fatal error LNK1120: 2 个无法解析的外部命令
+E:\Datastruct\Queue_list\Queue_list\Queue_list.h(6,1): error C2011: “Queue”:“class”类型重定义
+E:\Datastruct\Queue_list\Queue_list\Queue_list.h(5): message : 参见“Queue”的声明
+E:\Datastruct\Queue_list\Queue_list\Queue_operation.h(9,8): error C2027: 使用了未定义类型“Queue”
+E:\Datastruct\Queue_list\Queue_list\Queue_list.h(5): message : 参见“Queue”的声明
+E:\Datastruct\Queue_list\Queue_list\Queue_operation.h(10,1): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Datastruct\Queue_list\Queue_list\Queue_operation.h(12,2): error C2065: “front”: 未声明的标识符
+E:\Datastruct\Queue_list\Queue_list\Queue_operation.h(13,2): error C2065: “rear”: 未声明的标识符
+E:\Datastruct\Queue_list\Queue_list\Queue_operation.h(14,2): error C2065: “rear”: 未声明的标识符
+E:\Datastruct\Queue_list\Queue_list\Queue_operation.h(15,1): warning C4508: “{ctor}”: 函数应返回一个值；假定“void”返回类型
+E:\Datastruct\Queue_list\Queue_list\Queue_operation.h(17,9): error C2027: 使用了未定义类型“Queue”
+E:\Datastruct\Queue_list\Queue_list\Queue_list.h(5): message : 参见“Queue”的声明
+E:\Datastruct\Queue_list\Queue_list\Queue_operation.h(18,1): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Datastruct\Queue_list\Queue_list\Queue_operation.h(20,1): warning C4508: “{dtor}”: 函数应返回一个值；假定“void”返回类型
+E:\Datastruct\Queue_list\Queue_list\Queue_operation.h(22,13): error C2027: 使用了未定义类型“Queue”
+E:\Datastruct\Queue_list\Queue_list\Queue_list.h(5): message : 参见“Queue”的声明
+E:\Datastruct\Queue_list\Queue_list\Queue_operation.h(25,3): error C2248: “Node::data”: 无法访问 private 成员(在“Node”类中声明)
+E:\Datastruct\Queue_list\Queue_list\Node.h(11): message : 参见“Node::data”的声明
+E:\Datastruct\Queue_list\Queue_list\Node.h(4): message : 参见“Node”的声明
+E:\Datastruct\Queue_list\Queue_list\Queue_operation.h(26,3): error C2248: “Node::next”: 无法访问 private 成员(在“Node”类中声明)
+E:\Datastruct\Queue_list\Queue_list\Node.h(12): message : 参见“Node::next”的声明
+E:\Datastruct\Queue_list\Queue_list\Node.h(4): message : 参见“Node”的声明
+E:\Datastruct\Queue_list\Queue_list\Queue_operation.h(27,2): error C2065: “rear”: 未声明的标识符
+E:\Datastruct\Queue_list\Queue_list\Queue_operation.h(28,2): error C2065: “rear”: 未声明的标识符
+E:\Datastruct\Queue_list\Queue_list\Queue_operation.h(32,13): error C2027: 使用了未定义类型“Queue”
+E:\Datastruct\Queue_list\Queue_list\Queue_list.h(5): message : 参见“Queue”的声明
+E:\Datastruct\Queue_list\Queue_list\Queue_operation.h(34,5): error C2512: “std::is_empty”: 没有合适的默认构造函数可用
+E:\Datastruct\Queue_list\Queue_list\Queue_operation.h(34,14): message : 目标类型无构造函数
+E:\Datastruct\Queue_list\Queue_list\Queue_operation.h(39,6): error C2065: “front”: 未声明的标识符
+E:\Datastruct\Queue_list\Queue_list\Queue_operation.h(40,9): error C2248: “Node::data”: 无法访问 private 成员(在“Node”类中声明)
+E:\Datastruct\Queue_list\Queue_list\Node.h(11): message : 参见“Node::data”的声明
+E:\Datastruct\Queue_list\Queue_list\Node.h(4): message : 参见“Node”的声明
+E:\Datastruct\Queue_list\Queue_list\Queue_operation.h(41,2): error C2065: “front”: 未声明的标识符
+E:\Datastruct\Queue_list\Queue_list\Queue_operation.h(41,17): error C2248: “Node::next”: 无法访问 private 成员(在“Node”类中声明)
+E:\Datastruct\Queue_list\Queue_list\Node.h(12): message : 参见“Node::next”的声明
+E:\Datastruct\Queue_list\Queue_list\Node.h(4): message : 参见“Node”的声明
+E:\Datastruct\Queue_list\Queue_list\Queue_operation.h(42,11): error C2065: “rear”: 未声明的标识符
+E:\Datastruct\Queue_list\Queue_list\Queue_operation.h(44,3): error C2065: “rear”: 未声明的标识符
+E:\Datastruct\Queue_list\Queue_list\Queue_operation.h(44,10): error C2065: “front”: 未声明的标识符
+E:\Datastruct\Queue_list\Queue_list\Queue_operation.h(51,13): error C2027: 使用了未定义类型“Queue”
+E:\Datastruct\Queue_list\Queue_list\Queue_list.h(5): message : 参见“Queue”的声明
+E:\Datastruct\Queue_list\Queue_list\Queue_operation.h(53,12): error C2065: “front”: 未声明的标识符
+E:\Datastruct\Queue_list\Queue_list\Queue_operation.h(54,14): error C2065: “rear”: 未声明的标识符
+E:\Datastruct\Queue_list\Queue_list\Queue_operation.h(56,12): error C2248: “Node::next”: 无法访问 private 成员(在“Node”类中声明)
+E:\Datastruct\Queue_list\Queue_list\Node.h(12): message : 参见“Node::next”的声明
+E:\Datastruct\Queue_list\Queue_list\Node.h(4): message : 参见“Node”的声明
+E:\Datastruct\Queue_list\Queue_list\Queue_operation.h(56,18): error C2248: “Node::data”: 无法访问 private 成员(在“Node”类中声明)
+E:\Datastruct\Queue_list\Queue_list\Node.h(11): message : 参见“Node::data”的声明
+E:\Datastruct\Queue_list\Queue_list\Node.h(4): message : 参见“Node”的声明
+E:\Datastruct\Queue_list\Queue_list\Queue_operation.h(57,8): error C2248: “Node::next”: 无法访问 private 成员(在“Node”类中声明)
+E:\Datastruct\Queue_list\Queue_list\Node.h(12): message : 参见“Node::next”的声明
+E:\Datastruct\Queue_list\Queue_list\Node.h(4): message : 参见“Node”的声明
+E:\Datastruct\Queue_list\Queue_list\Queue_operation.h(62,13): error C2027: 使用了未定义类型“Queue”
+E:\Datastruct\Queue_list\Queue_list\Queue_list.h(5): message : 参见“Queue”的声明
+E:\Datastruct\Queue_list\Queue_list\Queue_operation.h(64,9): error C2065: “rear”: 未声明的标识符
+E:\Datastruct\Queue_list\Queue_list\Queue_operation.h(64,17): error C2065: “front”: 未声明的标识符
+E:\Datastruct\Queue_list\Queue_list\Queue_list.cpp(9,8): error C2079: “q”使用未定义的 class“Queue”
